@@ -1,0 +1,402 @@
+/*side-nav*/
+#market{ width: 192px; height: 523px; font-size:12px;background:#FF6537; font-weight:bold; position: absolute; left: 0; top: -34px; }
+#market .title{ height:33px; color:#fff; font-size:14px; padding: 10px 10px 0 10px; }
+#market .title span{ float:right; } 
+#market .title a{ color:#fff; }
+#market ._li{ height:30px; color:#fff; line-height:30px; text-align:center; }
+#market ._li:hover{ background:#F94A14; }
+#market ._li:hover .right{ /*display:block;*/ }
+#market ._li .p1{ position:relative; }
+#market ._li .p1 .a1{ margin-left:17px; }
+#market ._li .p1 .a2{ margin-left:23px; }
+/*设置字体图标的颜色*/
+#market ._li .p1 .zhan1{ position:absolute; left:11px; color:#FF905B; }
+#market ._li .p1 .zhan2{ position:absolute; right:26px; color:yellow; }
+#market ._li:hover .zhan1{ color:#fff; }
+#market ._li .p1 .arrow{ position:absolute; right:13px; }
+#market ._li .p1 a{ color:#fff; margin:0 5px 0 5px; }
+#market ._li .p1 a:hover{ text-decoration:underline; }
+
+#market .right{ width:710px; height:518px;position:absolute; left:190px; top:33px; border:2px solid #F94A14; display:none; opacity:0; filter:alpha(opacity=0) }
+#market .right .__li{ display:inline-block; float:left; width:445px;  }
+#market .right a{ color:#000; font-weight:normal; }
+#market .right .p2{ width:427px; height:53px; border-bottom:1px solid #E0E0E0; margin:0 10px 0 18px; position:relative; }
+
+#market .right .p2 .h3{ display:inline-block; font-size:14px; font-weight:bold; line-height:22px; padding:10px 0 0 32px; margin-right:335px;margin-top:21px;/*position:absolute; left:0; bottom:0;*/ }
+/*1*/
+#market .right .p2 .woman_dress{ background:url(../img/market/market_bg1.png) no-repeat 6px 4px; }
+#market .right .p2 .man_dress{ background:url(../img/market/market_bg2.png) no-repeat 0 4px; }
+#market .right .p2 .underwear{ background:url(../img/market/market_bg3.png) no-repeat 7px 5px; }
+/*2*/
+#market .right .p2 .shoe{ background:url(../img/market/market_bg4.png) no-repeat 6px 4px; }
+#market .right .p2 .bag{ background:url(../img/market/market_bg5.png) no-repeat 0 9px; }
+#market .right .p2 .part{ background:url(../img/market/market_bg6.png) no-repeat 5px 5px; }
+/*3*/
+#market .right .p2 .toy{ background:url(../img/market/market_bg7.png) no-repeat 6px 4px; }
+#market .right .p2 .pab{ background:url(../img/market/market_bg8.png) no-repeat 9px 6px; }
+#market .right .p2 .make{ background:url(../img/market/market_bg9.png) no-repeat 7px 5px; }
+/*4*/
+#market .right .p2 .appliance{ background:url(../img/market/market_bg10.png) no-repeat 2px 14px; }
+#market .right .p2 .digital{ background:url(../img/market/market_bg11.png) no-repeat 0 4px; }
+#market .right .p2 .phone{ background:url(../img/market/market_bg12.png) no-repeat 2px 5px; }
+/*5*/
+#market .right .p2 .beauty{ background:url(../img/market/market_bg13.png) no-repeat 6px 4px; }
+#market .right .p2 .cleaning{ background:url(../img/market/market_bg14.png) no-repeat 3px 4px; }
+#market .right .p2 .hcp{ background:url(../img/market/market_bg15.png) no-repeat 4px 5px; }
+/*6*/
+#market .right .p2 .jewelry{ background:url(../img/market/market_bg16.png) no-repeat 6px 4px; }
+#market .right .p2 .glasses{ background:url(../img/market/market_bg17.png) no-repeat 0 14px; }
+#market .right .p2 .watch{ background:url(../img/market/market_bg18.png) no-repeat 7px 5px; }
+/*7*/
+#market .right .p2 .movement{ background:url(../img/market/market_bg19.png) no-repeat 4px 14px; }
+#market .right .p2 .outdoor{ background:url(../img/market/market_bg20.png) no-repeat 0 4px; }
+#market .right .p2 .instrument{ background:url(../img/market/market_bg21.png) no-repeat 7px 3px; }
+/*8*/
+#market .right .p2 .game{ background:url(../img/market/market_bg22.png) no-repeat 2px 12px; }
+#market .right .p2 .cartoon{ background:url(../img/market/market_bg23.png) no-repeat 0 4px; }
+#market .right .p2 .film{ background:url(../img/market/market_bg24.png) no-repeat 7px 5px; }
+/*9*/
+#market .right .p2 .cate{ background:url(../img/market/market_bg25.png) no-repeat 4px 8px; }
+#market .right .p2 .fresh{ background:url(../img/market/market_bg26.png) no-repeat 0 4px; }
+#market .right .p2 .sock{ background:url(../img/market/market_bg27.png) no-repeat 2px 2px; }
+/*10*/
+#market .right .p2 .flower{ background:url(../img/market/market_bg28.png) no-repeat 2px 4px; }
+#market .right .p2 .pet{ background:url(../img/market/market_bg29.png) no-repeat 8px 4px; }
+#market .right .p2 .amop{ background:url(../img/market/market_bg30.png) no-repeat 2px 12px; }
+/*11*/
+#market .right .p2 .hp{ background:url(../img/market/market_bg31.png) no-repeat 2px 4px; }
+#market .right .p2 .fitment{ background:url(../img/market/market_bg32.png) no-repeat 0 4px; }
+#market .right .p2 .bm{ background:url(../img/market/market_bg33.png) no-repeat 7px 5px; }
+/*12*/
+#market .right .p2 .meuble{ background:url(../img/market/market_bg34.png) no-repeat 6px 4px; }
+#market .right .p2 .hd{ background:url(../img/market/market_bg35.png) no-repeat 0 4px; }
+#market .right .p2 .ht{ background:url(../img/market/market_bg36.png) no-repeat 7px 5px; }
+/*13*/
+#market .right .p2 .car{ background:url(../img/market/market_bg37.png) no-repeat 2px 14px; }
+#market .right .p2 .twocar{ background:url(../img/market/market_bg38.png) no-repeat 0 4px; }
+#market .right .p2 .thing{ background:url(../img/market/market_bg39.png) no-repeat 7px 5px; }
+/*14*/
+#market .right .p2 .office{ background:url(../img/market/market_bg40.png) no-repeat 2px 8px; }
+#market .right .p2 .diy{ background:url(../img/market/market_bg41.png) no-repeat 0 4px; }
+#market .right .p2 .handware{ background:url(../img/market/market_bg42.png) no-repeat 7px 5px; }
+/*15*/
+#market .right .p2 .sears{ background:url(../img/market/market_bg43.png) no-repeat 6px 4px; }
+#market .right .p2 .kit{ background:url(../img/market/market_bg44.png) no-repeat 0 4px; }
+#market .right .p2 .family{ background:url(../img/market/market_bg45.png) no-repeat 3px 8px; }
+/*16*/
+#market .right .p2 .study{ background:url(../img/market/market_bg46.png) no-repeat 2px 8px; }
+#market .right .p2 .ih{ background:url(../img/market/market_bg47.png) no-repeat 0 4px; }
+#market .right .p2 .lc{ background:url(../img/market/market_bg48.png) no-repeat 7px 5px; }
+
+#market .right .p2 .h3:hover{ color:#FF4400; }
+#market .right .p2 .more{ font-size:12px; font-weight:normal; position:absolute; right:1px; bottom:0; line-height:24px;}
+#market .right .p2 .more:hover{ color:#FF4400; }
+#market .right ul{ width:437px; height:107px; margin:0 0 0 18px; padding-top:9px; }
+#market .right ul li{ float:left; padding-right:17px; line-height:24px; }
+#market .right ul a{ color:#666; }
+#market .right .hot{ color:#FF4400; }
+
+#market .right .like{ display:inline-block; width:255px; height:518px; margin-left:9px; background:url(../img/like_bg.png);}
+#market .right{ background: #fff; }
+#market ._li:hover .right{ z-index: 1; }
+
+/*side-annoumcement*/
+.announcement{ width:290px; height:110px; margin-top: 24px;  border-bottom:1px solid #EAEAEA; position:relative; background: #fff; }
+.announcement a{ font-size:12px; color:#3C3C3C; }
+.announcement a:hover{ color:#FF4400; }
+.announcement .ul-1{ float:left; width:259px; height:79px; margin:13px 0 0 16px; }
+.announcement .li-1{ float:left; width:39px; height:20px; text-align:center; margin-right:15px; }
+.announcement .no-mr{ margin-right:0; }
+.announcement .active-1{ border-bottom:2px solid #FF4400; font-weight:bold; }
+
+.announcement .ul-2{ display:none; float:left; width:258px; height:43px; margin-top:18px; position:absolute; left:16px; height:49px; }
+.announcement .ul-2 li{ width:128px; height:18px; float:left; font-weight:normal; line-height:18px; }
+.announcement .ul-2 li a{ float:left; display:inline-block; height:18px; line-height:18px; }
+.announcement .ul-2 .mt{ margin-top:6px; }
+.announcement .ul-2 .active-2{ color:#FF4400; }
+
+.announcement .show{ display:block; }
+.announcement .hide{ display:none; }
+
+
+/*sode-user*/
+/*右边side-user样式*/
+.user{ width:290px; height:130px; margin-top: 25px; /*border:1px solid red;*/  background:#F1F1F1; position:relative; }
+.user .bg-1{ display:inline-block; width:60px; height:60px; background:url(../img/side/1.png) no-repeat center top; position:absolute; left:115px; }
+.user .p-1{ position:absolute; left:124px; top:64px; font-size:12px; color:#3C3C3C; }
+.user .p-2{ position:absolute; left:54px; top:84px; font-size:12px; line-height:16px; }
+.user .p-2 a{ color:#FF4400; }
+.user .p-2 span,.user .p-2 a{ display:inline-block; margin:0 2px 0 2px; line-height:16px; }
+.user .p-2 .bg-2{ /*display:inline-block;*/ width:16px; height:16px; background:url(../img/side/2.png) no-repeat; position:relative; top:3px; }
+.user ul{ position:absolute; left:25px; bottom:0; }
+.user ul li{ float:left; background:#FF4400; line-height:25px; text-align:center; margin-right:8px; }
+.user ul li a{ display:inline-block; width:75px; height:25px; font-size:14px; color:#fff; font-weight:bold; }
+.user ul li:hover{ background:#F22D00; }
+
+/*side-recharge*/
+.clear { zoom:1; }/*这两句是用来清浮动的*/
+.clear:after { content:''; display:block; clear:both; }
+
+/*淘宝右边side-recharge样式*/
+.recharge { width:288px; height:206px; position:relative; background: #fff; }
+.recharge a{ font-size:12px; color:#666666; }
+.recharge .li-1,.recharge .li-1-u{ float:left; width:70px; height:67px; border:1px solid #EAEAEA; border-left:1px solid #fff; }
+.recharge .fun1Color{ color:#FF4300; }
+.recharge .li-1-u{ border-top:1px solid #fff; }
+/*.recharge .li-1:hover{  }*/
+.recharge .borderThree{ border:1px solid #FF4400; border-bottom:1px solid #fff; }
+.recharge .li-1:hover .ul-2{ display:block; }
+	/*图标样式*/
+.recharge .iconfont{ display:block; font-size:24px; text-align:center; padding-top:12px; font-weight:bold; }
+.recharge .text{ display:inline-block; width:70px; height:23px; text-align:center; }
+			/*图标颜色*/
+.recharge .icon-shouji,.recharge .icon-yuanbao{ color:#967CFF; }
+.recharge .icon-youxi{ color:#09CFC5; }
+.recharge .icon-zhifeiji,.recharge .icon-yinle{ color:#00B3FF; }
+.recharge .icon-baoxian,.recharge .icon-waimai,.recharge .icon-huochepiao{ color:#A8C000; }
+.recharge .icon-caipiao,.recharge .icon-shuidianmeijiaofei{ color:#CA8D80; }
+.recharge .icon-daining,.recharge .icon-xiaolian{ color:#FF44C7; }
+	/*ul-2下样式*/
+.recharge .ul-2-1,.recharge .ul-2-2,.recharge .ul-2-3,.recharge .ul-2-4{ display:none; position:absolute; left:0; top:69px; width:286px; height:150px; border:1px solid #FF4400; border-top:none; background:#fff;}
+.recharge .ul-2-4{ display:block; }/*这两句代码很重要，关系到充话费、游戏、旅行、保险下面菜单的显示与隐藏*/
+
+.recharge .ul-2-1 .li-2{ float:left; width:55px; height:34px; line-height:34px; margin-left:5px; }
+.recharge .ul-2-1 .li-2-first{ margin-left:20px; }
+.recharge .ul-2-1 .li-2 a{ float:left; margin-left:10px;}
+.recharge .ul-2-1 .li-2:hover a{ color:#FF4300; }
+.recharge .close{ position:absolute; right:5px; top:5px; width:16px; height:16px; line-height:16px; text-align:center; }
+.recharge .close a{ display:block; width:16px; height:16px; }
+.recharge .close:hover{ background:#EEEEEE; font-weight:bold; }
+
+	/*form下的样式*/
+.recharge .ul-2-1 .li-2-1 form{ width:286px; height:117px;position:absolute; left:0px; top:33px; }
+.recharge .ul-2-1 .li-2-1 form .input-wrap{ width:190px; height:51px; margin-left:15px; }
+		/*.li-2-1充话费*/
+.recharge .ul-2-1 .li-2-1 form .input-number{ float:left; width:162px; height:24px; color:#A9A9A9; border:1px solid #CCCCCC; border-right:none; outline:none; background:url(../img/recharge/1.png) no-repeat; text-indent:5px; }
+.recharge .ul-2-1 .li-2-1 form .input-number-next{ float:left; width:24px; height:24px; border:1px solid #CCCCCC; border-left:none; font-size:15px; padding-top:0; line-height:24px; color:#B7B7B7; }
+.recharge .ul-2-1 .li-2-1 form .input-number-next:hover{ color:#737373; }
+
+.recharge .ul-2-1 .li-2-1 form .choose-count{ float:left; width:163px; height:24px; background:#fff url(../img/recharge/2.png) no-repeat; border:1px solid #CCCCCC; border-right:none; border-top:none; outline:none; /*position:relative; top:-3px;*/ }
+.recharge .ul-2-1 .li-2-1 form .choose-count-next{ float:left; width:24px; height:28px; border:1px solid #CCCCCC; border-left:none; border-top:none; font-size:15px; padding-top:0; line-height:28px; color:#B7B7B7; position:relative; top:-5px; font-weight:normal; }
+.recharge .ul-2-1 .li-2-1 form .choose-count-next:hover{ color:#737373; }
+
+.recharge .ul-2-1 .li-2-1 form p{ width:164px; height:30px; font-size:12px; color:#666666; margin-top:0px; line-height:30px; padding-left:4px; margin-left:15px; }
+.recharge .ul-2-1 .li-2-1 form p span{ color:#FF4400; font-weight:bold; }
+.recharge .ul-2-1 .li-2-1 form .instant{ float:left; width:72px; height:26px; background:#FF4400; border:none; font-weight:bold; color:#fff; cursor:pointer; outline:none; margin-left:15px; }
+.recharge .ul-2-1 .li-2-1 form .instant:hover { background:#F22D00; }
+
+		/*.li-2-2充流量*/
+.recharge .ul-2-1 .li-2-2 form{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-1 .li-2-2 form .input-wrap{ width:215px; height:51px; margin-left:15px; }
+.recharge .ul-2-1 .li-2-2 form .input-number{ float:left; width:163px; height:24px; border:1px solid #CCCCCC; border-right:none; outline:none; background:url(../img/recharge/1.png) no-repeat; }
+.recharge .ul-2-1 .li-2-2 form .input-number-next{ float:left; font-size:15px; color:#B7B7B7; border:1px solid #CCCCCC; border-left:none; width:25px; height:24px; padding-top:0; line-height:24px; text-align:center; }
+
+.recharge .ul-2-1 .li-2-2 form .input-number-next:hover{ color:#737373; }
+.recharge .ul-2-1 .li-2-2 form .type{ float:left; width:71px; height:24px; border:1px solid #CCCCCC; border-top:none; border-right:none; background:#fff; outline:none; }
+.recharge .ul-2-1 .li-2-2 form .type-next,.recharge .ul-2-1 .li-2-2 form .old-number-next{ float:left; width:23px; height:23px; border:1px solid #CCCCCC; border-left:none; border-top:none; font-size:15px; padding-top:0; line-height:24px; color:#B7B7B7; }
+.recharge .ul-2-1 .li-2-2 form .type-next:hover{ color:#737373; }
+.recharge .ul-2-1 .li-2-2 form .old-number{ float:left; width:71px; height:24px; border:none; border-bottom:1px solid #CCCCCC; background:#fff; outline:none; }
+.recharge .ul-2-1 .li-2-2 form p{ font-size:12px; height:30px; line-height:30px; color:#666666; padding-left:4px; margin-left:15px; }
+.recharge .ul-2-1 .li-2-2 form p span{ color:#FF4400; font-weight:bold; }
+.recharge .ul-2-1 .li-2-2 form .instant{ width:68px; height:28px; border:none; background:#FF4400; color:#fff; font-weight:bold; margin-left:15px; }
+.recharge .ul-2-1 .li-2-2 form .instant:hover{ background:#F22D00; }
+		/*.li-2-3充固话*/
+.recharge .ul-2-1 .li-2-3 form{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-1 .li-2-3 form .input-wrap{ width:200px; height:74px; margin-left:15px; }
+.recharge .ul-2-1 .li-2-3 form .choose-1,.recharge .ul-2-1 .li-2-3 form .choose-2{ float:left; margin-top:4px; width:12px; height:12px; }
+.recharge .ul-2-1 .li-2-3 form .choose-2{ margin-left:28px; }
+.recharge .ul-2-1 .li-2-3 form .choose-1-next,.recharge .ul-2-1 .li-2-3 form .choose-2-next{ float:left; font-size:12px; padding-left:3px; height:20px; line-height:20px; }
+.recharge .ul-2-1 .li-2-3 form .input-fixed{ background:url(../img/recharge/3.png) no-repeat; }
+.recharge .ul-2-1 .li-2-3 form .input-fixed,.recharge .ul-2-1 .li-2-3 form .choose-count{ float:left; width:173px; height:25px; border:1px solid #CCCCCC; border-right:none; outline:none; }
+.recharge .ul-2-1 .li-2-3 form .input-fixed-next,.recharge .ul-2-1 .li-2-3 form .choose-count-next{ float:left; width:25px; height:25px; line-height:25px; border:1px solid #CCCCCC; border-left:none; font-size:15px; padding-top:0; color:#B7B7B7; }
+.recharge .ul-2-1 .li-2-3 form .choose-count{ border-top:none; background:#fff; }
+.recharge .ul-2-1 .li-2-3 form .choose-count-next{ border-top:none; width:26px; height:24px; }
+
+.recharge .ul-2-1 .li-2-3 form .instant{ width:68px; height:28px; border:none; background:#FF4200; color:#fff; font-weight:bold; margin-left:15px; }
+.recharge .ul-2-1 .li-2-3 form p{ display:inline-block; width:90px; height:30px; font-size:12px; margin-left:34px; text-align:right; color:#747474; }
+.recharge .ul-2-1 .li-2-3 form p span{ color:#FF4200; font-weight:bold; }
+
+		/*.li-2-4充宽带*/
+.recharge .ul-2-1 .li-2-4 form{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-1 .li-2-4 form .input-wrap{ width:218px; height:80px; margin-left:15px; }
+.recharge .ul-2-1 .li-2-4 form  .telecom,.recharge .ul-2-1 .li-2-4 form .input-number,.recharge .ul-2-1 .li-2-4 form .choose-count{ float:left; width:173px; height:25px; border:1px solid #CCCCCC; border-right:none; background:#fff; outline:none; }
+.recharge .ul-2-1 .li-2-4 form  .telecom-next,.recharge .ul-2-1 .li-2-4 form .input-number-next,.recharge .ul-2-1 .li-2-4 form .choose-count-next{ float:left; width:25px; height:23px; border:1px solid #CCCCCC; border-left:none; padding-top:0; font-size:15px; line-height:23px; color:#B7B7B7; }
+.recharge .ul-2-1 .li-2-4 form .input-number,.recharge .ul-2-1 .li-2-4 form .choose-count{ border-top:none; }
+.recharge .ul-2-1 .li-2-4 form .input-number-next{ border-top:none; width:24px; height:25px; }
+.recharge .ul-2-1 .li-2-4 form .choose-count-next{ border-top:none; width:25px; height:24px; }
+.recharge .ul-2-1 .li-2-4 form .instant { width:68px; height:26px; border:none; background:#FF4200; color:#fff; font-weight:bold; outline:none; margin-left:15px; }
+.recharge .ul-2-1 .li-2-4 form .instant:hover{ background:#F52B00; }
+.recharge .ul-2-1 .li-2-4 form p{ display:inline-block; width:80px; height:32px; font-size:12px; color:#747474; padding-left:43px; }
+.recharge .ul-2-1 .li-2-4 form p span{ color:#FF4200; font-weight:bold; }
+
+	/*.ul-2-2下的样式*/		
+		/*公共样式*/
+.recharge .ul-2-2 .li-2{ float:left; height:34px; line-height:34px; margin-left:22px; }
+.recharge .ul-2-2 .li-2:hover a{ color:#FF4400; }
+.recharge .ul-2-2 .li-2-1 form,.recharge .ul-2-2 .li-2-2 form,.recharge .ul-2-2 .li-2-3 .games{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-2 .li-2-1 form .input-wrap *,.recharge .ul-2-2 .li-2-2 form .input-wrap *,.recharge .ul-2-2 .li-2-3 .games *{ float:left; }
+		/*.li-2-1*/
+.recharge .ul-2-2 .li-2-1 form .input-wrap{	width:217px; height:106px; margin-left:15px; }
+
+.recharge .ul-2-2 .li-2-1 form h6{ width:31px; height:24px; background:#E5E5E5; font-size:12px; color:#666666; line-height:24px; text-align:center; border:1px solid #CCCCCC; border-right:none; }
+.recharge .ul-2-2 .li-2-1 form .no-border-top{ border-top:none; }
+.recharge .ul-2-2 .li-2-1 form .input-name{ background:url(../img/recharge/5.png) no-repeat; text-indent:10px; }
+.recharge .ul-2-2 .li-2-1 form .input-name,.recharge .ul-2-2 .li-2-1 form .choose-count{ width:151px; height:24px; border:1px solid #CCCCCC; border-right:none; border-left:none; outline:none; }
+.recharge .ul-2-2 .li-2-1 form .input-name-next,.recharge .ul-2-2 .li-2-1 form .choose-count-next{ width:33px; height:24px; border:1px solid #CCCCCC; border-left:none; padding-top:0; font-weight:normal; line-height:24px; color:#CCCCCC; font-size:15px; }
+.recharge .ul-2-2 .li-2-1 form .choose-count{ border-top:none; height:25px; background:#fff; }
+.recharge .ul-2-2 .li-2-1 form .choose-count-next{ border-top:none; }
+.recharge .ul-2-2 .li-2-1 form .input-name-next:hover,.recharge .ul-2-2 .li-2-1 form .choose-count-next:hover{ color:#9C9C9C; }
+.recharge .ul-2-2 .li-2-1 form .choose-1{ margin-left:95px; }
+.recharge .ul-2-2 .li-2-1 form .choose-1,.recharge .ul-2-2 .li-2-1 form .choose-2{ width:13px; height:23px; }
+.recharge .ul-2-2 .li-2-1 form .choose-1-next,.recharge .ul-2-2 .li-2-1 form .choose-2-next{ font-size:12px; height:22px; line-height:22px; color:#3C3C3C; }
+.recharge .ul-2-2 .li-2-1 form .instant{ width:68px; height:26px; font-size:12px; font-weight:bold; background:#FF4400; border:none; outline:none; color:#fff; }
+.recharge .ul-2-2 .li-2-1 form .instant:hover{ background:#F22D00; }
+.recharge .ul-2-2 .li-2-1 form p{ width:132px; height:28px;  font-size:12px; line-height:28px; margin-left:10px; }
+.recharge .ul-2-2 .li-2-1 form p a{ color:#666666; }
+.recharge .ul-2-2 .li-2-1 form p:hover{ color:#FF6600; }
+		/*.li-2-2*/
+.recharge .ul-2-2 .li-2-2 form .input-wrap{ width:258px; height:106px; margin-left:15px; }
+.recharge .ul-2-2 .li-2-2 form .input-QQ{ width:256px; height:24px; border:1px solid #CCCCCC; background:url(../img/recharge/6.png) no-repeat; outline:none; text-indent:6px; }
+.recharge .ul-2-2 .li-2-2 form .type,.recharge .ul-2-2 .li-2-2 form .count{ width:99px; height:24px; border:1px solid #CCCCCC; border-top:none; border-right:none; background:#fff; outline:none; }
+.recharge .ul-2-2 .li-2-2 form .type-next,.recharge .ul-2-2 .li-2-2 form .count-next{ width:29px; height:23px; line-height:24px; padding-top:0; font-size:15px; border-bottom:1px solid #CCCCCC; color:#CCCCCC; }
+.recharge .ul-2-2 .li-2-2 form .count-next{ border-right:1px solid #CCCCCC; width:30px; }
+.recharge .ul-2-2 .li-2-2 form .type-next:hover,.recharge .ul-2-2 .li-2-2 form .count-next:hover{ color:#9C9C9C; }
+.recharge .ul-2-2 .li-2-2 form p{ width:258px; height:28px; font-size:10px; line-height:28px;  }
+.recharge .ul-2-2 .li-2-2 form p i{ color:#999999; font-style:normal; }
+.recharge .ul-2-2 .li-2-2 form p span{ color:#FF6600; font-weight:bold; }
+.recharge .ul-2-2 .li-2-2 form .instant{ width:68px; height:28px; background:#FF4400; font-size:12px; font-weight:bold; border:none; outline:none; color:#fff; }
+.recharge .ul-2-2 .li-2-2 form .instant:hover{ background:#F22D00; }
+.recharge .ul-2-2 .li-2-2 form .more{ width:160px; height:28px; line-height:28px; margin-left:10px; }
+.recharge .ul-2-2 .li-2-2 form .more a{ color:#666666; }
+.recharge .ul-2-2 .li-2-2 form .more a:hover{ color:#FF6600; }
+		/*.li-2-3 games*/
+
+.recharge .ul-2-2 .li-2-3 a{ float:left; color:#333333; }
+.recharge .ul-2-2 .li-2-3 a{ color:#333333!important; }
+.recharge .ul-2-2 .li-2-3 .a-1{ width:80px; height:44px; }
+.recharge .ul-2-2 .li-2-3 .a-2{ width:89px; height:18px; text-indent:16px; line-height:18px; }
+.recharge .ul-2-2 .li-2-3 .datianshizhijian,.recharge .ul-2-2 .li-2-3 .gongchengluedi,.recharge .ul-2-2 .li-2-3 .nvshenlianmeng{ width:80px; height:44px; margin-left:9px; margin-bottom:14px; }
+
+.recharge .ul-2-2 .li-2-3 .first{ margin-left:15px; }
+.recharge .ul-2-2 .li-2-3 .datianshizhijian{ background:url(../img/recharge/1-1.png); }
+.recharge .ul-2-2 .li-2-3 .gongchengluedi{ background:url(../img/recharge/1-2.png); }
+.recharge .ul-2-2 .li-2-3 .nvshenlianmeng{ background:url(../img/recharge/1-3.png); }
+.recharge .ul-2-2 .li-2-3 .fengyunwushuang{ background:url(../img/recharge/1-4.png) no-repeat; margin-left:15px; }
+.recharge .ul-2-2 .li-2-3 .lieyan{ background:url(../img/recharge/1-5.png) no-repeat; }
+.recharge .ul-2-2 .li-2-3 .dezhoupuke{ background:url(../img/recharge/1-6.png) no-repeat; }
+.recharge .ul-2-2 .li-2-3 .wuyichuanqi{ background:url(../img/recharge/1-7.png) no-repeat; margin-left:15px; margin-top:8px; }
+.recharge .ul-2-2 .li-2-3 .rexuesanguoer{ background:url(../img/recharge/1-8.png) no-repeat; margin-top:8px; }
+.recharge .ul-2-2 .li-2-3 .qijilaile{ background:url(../img/recharge/1-9.png) no-repeat; margin-top:8px; }
+	/*.ul-2-3下的样式*/
+.recharge .ul-2-3 .li-2 { float:left; height:32px; margin-left:6px; line-height:32px; }
+.recharge .ul-2-3 .li-2:hover a{ color:#FF4300; }
+.recharge .ul-2-3 .first{ margin-left:16px; }
+		/*.li-2-1;.li-2-2;.li-2-3;.li-2-4;li-2-5*/
+.recharge .ul-2-3 .li-2-1 form,.recharge .ul-2-3 .li-2-2 form,.recharge .ul-2-3 .li-2-3 form,.recharge .ul-2-3 .li-2-4 form,.recharge .ul-2-3 .li-2-5 form{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-3 .li-2-1 form .input-wrap,.recharge .ul-2-3 .li-2-2 form .input-wrap,.recharge .ul-2-3 .li-2-3 form .input-wrap,.recharge .ul-2-3 .li-2-4 form .input-wrap,.recharge .ul-2-3 .li-2-5 form .input-wrap{ width:260px; height:102px; margin-left:15px; }
+.recharge .ul-2-3 .li-2-1 form .input-wrap *,.recharge .ul-2-3 .li-2-2 form .input-wrap *,.recharge .ul-2-3 .li-2-3 form .input-wrap *,.recharge .ul-2-3 .li-2-4 form .input-wrap *,.recharge .ul-2-3 .li-2-5 form .input-wrap *{ float:left; }
+.recharge .ul-2-3 .li-2-1 form .type,.recharge .ul-2-3 .li-2-2 form .type,.recharge .ul-2-3 .li-2-3 form .type,.recharge .ul-2-3 .li-2-4 form .type{ width:12px; height:12px; }
+.recharge .ul-2-3 .li-2-1 form .form,.recharge .ul-2-3 .li-2-2 form .form,.recharge .ul-2-3 .li-2-3 form .form,.recharge .ul-2-3 .li-2-4 form .form{ font-size:12px; color:#333333;height:16px; line-height:12px; padding-left:5px; }
+.recharge .ul-2-3 .li-2-1 form .form-1,.recharge .ul-2-3 .li-2-2 form .form-1,.recharge .ul-2-3 .li-2-3 form .form-1,.recharge .ul-2-3 .li-2-4 form .form-1{ padding-right:22px; }
+.recharge .ul-2-3 .li-2-1 form .form-2,.recharge .ul-2-3 .li-2-2 form .form-2,.recharge .ul-2-3 .li-2-3 form .form-2,.recharge .ul-2-3 .li-2-4 form .form-2{ padding-right:38px; }
+.recharge .ul-2-3 .li-2-2 form .form-2,.recharge .ul-2-3 .li-2-3 form .form-2,.recharge .ul-2-3 .li-2-4 form .form-2{ margin-right:90px; }
+.recharge .ul-2-3 .li-2-3 form .form-2{ margin-right:70px; }
+.recharge .ul-2-3 .li-2-1 form .tip{ width:110px; height:16px; color:#BBBBBB; font-size:12px; line-height:16px; }
+.recharge .ul-2-3 .li-2-1 form .start,.recharge .ul-2-3 .li-2-1 form .arrive,.recharge .ul-2-3 .li-2-2 form .start,.recharge .ul-2-3 .li-2-2 form .arrive,.recharge .ul-2-3 .li-2-3 form .check,.recharge .ul-2-3 .li-2-3 form .leave,.recharge .ul-2-3 .li-2-4 form .start,.recharge .ul-2-3 .li-2-4 form .arrive,.recharge .ul-2-3 .li-2-5 form .start,.recharge .ul-2-3 .li-2-5 form .arrive{ width:30px; height:24px; border:1px solid #CCCCCC; border-right:none; background:#F5F5F5; font-size:12px; color:#6B6B6B; line-height:24px; text-align:center; }
+.recharge .ul-2-3 .li-2-1 form .start-,.recharge .ul-2-3 .li-2-2 form .start-,.recharge .ul-2-3 .li-2-3 form .check-,.recharge .ul-2-3 .li-2-3 form .leave-,.recharge .ul-2-3 .li-2-5 form .start-{ border-top:none; }
+.recharge .ul-2-3 .li-2-1 form .choose-city,.recharge .ul-2-3 .li-2-1 form .date,.recharge .ul-2-3 .li-2-2 form .choose-city,.recharge .ul-2-3 .li-2-2 form .date,.recharge .ul-2-3 .li-2-3 form .choose-city,.recharge .ul-2-3 .li-2-3 form .location,.recharge .ul-2-3 .li-2-3 form .date,.recharge .ul-2-3 .li-2-4 form .choose-city,.recharge .ul-2-3 .li-2-5 form .choose-city,.recharge .ul-2-3 .li-2-5 form .date{ width:70px; height:26px; border:1px solid #CCCCCC; border-left:none; border-right:none; background:#fff; }
+.recharge .ul-2-3 .li-2-3 form .location{ margin-left:20px; margin-top:0; width:118px; border:1px solid #CCCCCC; }
+.recharge .ul-2-3 .li-2-1 form .date,.recharge .ul-2-3 .li-2-2 form .date,.recharge .ul-2-3 .li-2-3 form .date,.recharge .ul-2-3 .li-2-5 form .date{ border-top:none; height:25px; }
+.recharge .ul-2-3 .li-2-1 form .choose-city-next,.recharge .ul-2-3 .li-2-1 form .date-next,.recharge .ul-2-3 .li-2-2 form .choose-city-next,.recharge .ul-2-3 .li-2-2 form .date-next,.recharge .ul-2-3 .li-2-3 form .choose-city-next,.recharge .ul-2-3 .li-2-3 form .date-next,.recharge .ul-2-3 .li-2-4 form .choose-city-next,.recharge .ul-2-3 .li-2-5 form .choose-city-next,.recharge .ul-2-3 .li-2-5 form .date-next{ width:18px; height:24px; border:1px solid #CCCCCC; border-left:none; font-size:14px; color:#DCDCDC;padding-top:0; line-height:24px; }
+.recharge .ul-2-3 .li-2-1 form .date-next,.recharge .ul-2-3 .li-2-2 form .date-next,.recharge .ul-2-3 .li-2-3 form .date-next,.recharge .ul-2-3 .li-2-5 form .date-next{ border-top:none; margin-right:140px; }
+.recharge .ul-2-3 .li-2-3 form .date-next,.recharge .ul-2-3 .li-2-4 form .choose-city-next,.recharge .ul-2-3 .li-2-5 form .choose-city-next{ margin-right:20px; }
+.recharge .ul-2-3 .li-2-3 form .date-next-,.recharge .ul-2-3 .li-2-4 form .choose-city-next-no,.recharge .ul-2-3 .li-2-5 form .choose-city-next-no{ margin-right:0; }
+.recharge .ul-2-3 .li-2-1 form .you,.recharge .ul-2-3 .li-2-2 form .you{ width:20px; height:26px; color:#CCCCCC; font-size:12px; line-height:12px; line-height:26px; text-align:center; }
+.recharge .ul-2-3 .li-2-1 form .search,.recharge .ul-2-3 .li-2-2 form .search,.recharge .ul-2-3 .li-2-3 form .search,.recharge .ul-2-3 .li-2-4 form .search,.recharge .ul-2-3 .li-2-5 form .search{ width:44px; height:27px; background:#FF4400; border:none; font-size:12px; font-weight:bold; outline:none; color:#FFF; margin-top:8px; }
+.recharge .ul-2-3 .li-2-1 form .favorable,.recharge .ul-2-3 .li-2-2 form .favorable,.recharge .ul-2-3 .li-2-3 form .favorable,.recharge .ul-2-3 .li-2-4 form .favorable{ width:172px; height:27px; font-size:12px; color:#666666; margin-left:14px; line-height:27px; margin-top:8px; }
+.recharge .ul-2-3 .li-2-4 form .favorable{ width:184px; }
+.recharge .ul-2-3 .li-2-1 form .favorable a,.recharge .ul-2-3 .li-2-2 form .favorable a,.recharge .ul-2-3 .li-2-3 form .favorable a,.recharge .ul-2-3 .li-2-4 form .favorable a{ color:#666666; }
+.recharge .ul-2-3 .li-2-1 form .favorable:hover a,.recharge .ul-2-3 .li-2-2 form .favorable:hover a,.recharge .ul-2-3 .li-2-3 form .favorable a:hover,.recharge .ul-2-3 .li-2-4 form .favorable a:hover{ color:#FF6600; }
+
+	/*.ul-2-4 下样式*/
+		/*公共样式*/
+.recharge .ul-2-4 .li-2 { float:left; height:32px; margin-left:18px; line-height:32px; }
+.recharge .ul-2-4 .li-2:hover a{ color:#FF4400; }
+.recharge .ul-2-4 .li-2 .input-wrap{ margin-left:15px; width:259px; height:96px; }
+.recharge .ul-2-4 .li-2 .input-wrap *{ float:left; }
+		/*.li-2-1;.li-2-2;.li-2-3;.li-2-4*/
+.recharge .ul-2-4 .li-2-1 form,.recharge .ul-2-4 .li-2-2 form,.recharge .ul-2-4 .li-2-3 form,.recharge .ul-2-4 .li-2-4 form,.recharge .ul-2-4 .li-2-5 form{ width:286px; height:117px; position:absolute; left:0px; top:33px; }
+.recharge .ul-2-4 .li-2-1 form .hot-city,.recharge .ul-2-4 .li-2-1 form .insure-company,.recharge .ul-2-4 .li-2-2 form .insure-type,.recharge .ul-2-4 .li-2-2 form .insure-time,.recharge .ul-2-4 .li-2-3 form .insure-type,.recharge .ul-2-4 .li-2-3 form .fea-insure,.recharge .ul-2-4 .li-2-4 form .go-location,.recharge .ul-2-4 .li-2-4 form .go-time,.recharge .ul-2-4 .li-2-5 form .fea-insure{ width:64px; height:24px; border:1px solid #CCCCCC; border-right:none; font-size:12px; line-height:24px; text-align:center; background:#F5F5F5; color:#6B6B6B; }
+.recharge .ul-2-4 .li-2-1 form .insure-company,.recharge .ul-2-4 .li-2-2 form .insure-time,.recharge .ul-2-4 .li-2-3 form .fea-insure,.recharge .ul-2-4 .li-2-4 form .go-time{ border-top:none; }
+.recharge .ul-2-4 .li-2-1 form .choose-city,.recharge .ul-2-4 .li-2-1 form .choose-type,.recharge .ul-2-4 .li-2-2 form .avi-accident,.recharge .ul-2-4 .li-2-2 form .choose-time,.recharge .ul-2-4 .li-2-3 form .illness,.recharge .ul-2-4 .li-2-3 form .illness,.recharge .ul-2-4 .li-2-3 form .insure-xubao,.recharge .ul-2-4 .li-2-4 form .churchyard,.recharge .ul-2-4 .li-2-4 form .choose-time,.recharge .ul-2-4 .li-2-5 form .choose-type{ width:168px; height:24px; border:1px solid #CCCCCC; border-left:none; border-right:none; }
+.recharge .ul-2-4 .li-2-1 form .choose-type,.recharge .ul-2-4 .li-2-2 form .choose-time,.recharge .ul-2-4 .li-2-3 form .insure-xubao,.recharge .ul-2-4 .li-2-4 form .choose-time{ border-top:none; }
+.recharge .ul-2-4 .li-2-1 form .choose-city-next,.recharge .ul-2-4 .li-2-1 form .choose-type-next,.recharge .ul-2-4 .li-2-2 form .avi-accident-next,.recharge .ul-2-4 .li-2-2 form .choose-time-next,.recharge .ul-2-4 .li-2-3 form .illness-next,.recharge .ul-2-4 .li-2-3 form .insure-xubao-next,.recharge .ul-2-4 .li-2-4 form .choose-time-next,.recharge .ul-2-4 .li-2-4 form .churchyard-next,.recharge .ul-2-4 .li-2-5 form .choose-type-next{ width:25px; height:24px; border:1px solid #CCCCCC; border-left:none; font-size:5px; line-height:24px; text-align:center; padding-top:0; }
+.recharge .ul-2-4 .li-2-1 form .choose-type-next,.recharge .ul-2-4 .li-2-2 form .choose-time-next,.recharge .ul-2-4 .li-2-3 form .insure-xubao-next,.recharge .ul-2-4 .li-2-4 form .choose-time,.recharge .ul-2-4 .li-2-4 form .choose-time-next{ border-top:none; }
+.recharge .ul-2-4 .li-2-1 form .instant,.recharge .ul-2-4 .li-2-1 form .fast,.recharge .ul-2-4 .li-2-2 form .instant,.recharge .ul-2-4 .li-2-3 form .instant,.recharge .ul-2-4 .li-2-4 form .instant,.recharge .ul-2-4 .li-2-5 form .instant{ width:69px; height:27px; font-size:12px; font-weight:bold; margin-top:18px; border:none; background:#FF4400; color:#fff; }
+.recharge .ul-2-4 .li-2-2 form .instant,.recharge .ul-2-4 .li-2-3 form .instant,.recharge .ul-2-4 .li-2-4 form .instant,.recharge .ul-2-4 .li-2-5 form .instant{ width:106px; }
+.recharge .ul-2-4 .li-2-3 form .most-complete{ width:60px; height:12px; margin:15px 0 0 15px; color:#666666; }
+.recharge .ul-2-4 .li-2-3 form .most-complete:hover{ color:#FF6600; }
+.recharge .ul-2-4 .li-2-1 form .fast{ margin-left:14px; border:1px solid #DCDCDC; background:#fff; color:#000; }
+.recharge .ul-2-4 .li-2-1 form .active{ width:48px; height:12px; color:#666666; margin:17px 0 0 14px; }
+.recharge .ul-2-4 .li-2-1 form .active:hover{ color:#FF6600; }
+
+
+form,.games{ display:none; }
+.ul-2-1{ display:none; }
+/*JS动态效果前的默认样式准备工作*/
+.recharge .ul-2-1,.recharge .ul-2-2,.recharge .ul-2-3,.recharge .ul-2-4{ display:none; }
+/*.recharge .li-1:hover .ul-2-1,.recharge .li-1:hover .ul-2-2,.recharge .li-1:hover .ul-2-3,.recharge .li-1:hover .ul-2-4{ display:block; }*/
+.recharge .li-1:hover .formShow{ display:block; }
+.recharge .li-1:hover .act{ color:#FF4300; }
+.recharge .li-1-u:hover .act{ color:#FF4300; }/*鼠标移至一级菜单上，如充话费上，则下面的文字“充话费”颜色改变*/
+.recharge .li-2-1{ display:block; }
+.recharge .act a{ color:#FF4300; }/*如鼠标移至游戏，显示出下面的菜单，设置第一个“点卡”的颜色*/
+.recharge .bottomStyle{ border-bottom:1px solid #FF4400; }
+.recharge .li-2 .colorRed a{ color:#FF4300; }
+
+/*side1*/
+.slide{ width:520px; height:280px; position:relative; margin: 10px 0 0 200px; overflow:hidden;}
+.slide .img{ float:left; position:absolute; }
+.slide .img li{ /*position:absolute;*/ float:left; }
+.slide .btnL,.slide .btnR{ width:24px; height:36px; position:absolute; top: 122px; background:#000; line-height:36px; text-align:center; color:#fff; font-weight:bold; opacity:0.3; display:none;
+}
+#slide .btnL{ left:0; }
+.slide .btnR{ right:0;}
+
+.slide .btn{ width:65px; height:13px; position:absolute; left:227px; bottom:15px; background:#fff; opacity:0.5; border-radius:5px;}
+.slide .btn li{ float:left; width:9px; height:9px; border-radius:50%; background:#B7B7B7; margin:2px;}
+.slide .btn li:hover{ cursor:pointer; }
+.slide .btn .active{ background:red; }
+
+/*side2*/
+.slide2{ width:520px; height:220px; position:relative; margin: 16px 0 0 200px; overflow:hidden;}
+.slide2 .img{ float:left; position:absolute; height: 202px; }
+.slide2 .img li{ width: 520px; height: 202px; }
+.slide2 .img *{ /*position:absolute;*/ float:left; }
+.slide2 .btnL,.slide2 .btnR{ width:24px; height:36px; position:absolute; bottom: 79px; background:#000; line-height:36px; text-align:center; color:#fff; font-weight:bold; opacity:0.3; display: none;
+}
+#slide2 .btnL{ left:0; }
+.slide2 .btnR{ right:0;}
+
+.slide2 .btn{ width:78px; height:13px; position:absolute; left:227px; bottom:15px; background:#fff; opacity:0.5; border-radius:5px;}
+.slide2 .btn li{ float:left; width:9px; height:9px; border-radius:50%; background:#B7B7B7; margin:2px;}
+.slide2 .btn li:hover{ cursor:pointer; }
+.slide2 .btn .active{ background:red; }
+.slide2 .title{ width: 520px; height: 18px; background: #F1F1F1; }
+.slide2 .title *{ float: left; }
+.slide2 .title h2{ width: 115px; height: 16px; font-size: 14px; text-indent: 48px; color: #3C3C3C; background: url(../img/slide2/1.png) no-repeat; line-height: 16px; border-bottom: 2px solid #000;  }
+.slide2 .title .intro{ font-size: 12px; text-indent: 6px; color: #666666; line-height: 16px; width: 374px; border-bottom: 2px solid #C12C26; }
+.slide2 .title .pos{ font-size: 10px; width: 18px; height: 16px; text-indent: 0px; color: #3C3C3C; line-height: 20px; border-bottom: 2px solid #C12C26; padding-left: 13px; }
+.slide2 .title .pos span{ height: 16px; }
+.slide2 .title .num{ color: #C12C26; }
+
+
+.slide2 .img .borderL{ border-left: 1px solid #EBEBEB; }	
+.slide2 .img .borderR{ border-right: 1px solid #EBEBEB; }
+.slide2 .img .borderT{ border-top: 1px solid #EBEBEB; }
+.slide2 .img .borderB{ border-bottom: 1px solid #EBEBEB; }
+
+.slide2 .img .img-1{ width: 172px; height: 202px; }
+.slide2 .img .img-2{ width: 172px; height: 100px; }
+.slide2 .img .img-3{ width: 129px; height: 69px; }
+.slide2 .img .img-4{ width: 259px; height: 202px; }
