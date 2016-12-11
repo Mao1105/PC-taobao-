@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name='viewport' content="width=device-width,initial-scale=1,user-scalable=no" />
+    <link rel="shortcut icon" href="../img/title.ico" type="image/x-icon"/> 
+    <title>淘宝网 - 我的购物车</title>
+    <link href="css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div class='main'>
+        <div class="site-nav">
+            <div class="nav">
+                <ul class="nav-left">
+                    <li><a href="../index.html" class='nav-account'>毛慧雯</a></li>
+                    <li><a href="#" class='nav-msg'>消息</a></li>
+                    <li><a href="#" class='nav-hangon'>手机逛淘宝</a></li>
+                </ul>
+                <ul class="nav-right">
+                    <li><a href="../index.html" class='nav-index'>淘宝网首页</a></li>
+                    <li class='nav_myTao'>
+                        <a href="../index.html" class='nav-myTao'>我的淘宝</a>
+                        <ul class='nav-myTao-nav'>
+                            <a href="#">已买到的宝贝</a>
+                            <a href="#">我的足迹</a>
+                            <a href="#">爱逛街</a>
+                            <a href="#">淘宝达人</a>
+                            <a href="#">新欢</a>
+                        </ul>
+                    </li>
+                    <li class='nav_collection'>
+                        <a href="../index.html" class='nav-collection'>收藏夹</a>
+                        <ul class="nav-myTao-nav">
+                            <a href="#">收藏的宝贝</a>
+                            <a href="#">收藏的店铺</a>
+                        </ul>
+                    </li>
+                    <li class='nav_sellCenter'>
+                        <a href="../index.html" class='nav-sellCenter'>卖家中心</a>
+                        <ul class="nav-myTao-nav">
+                            <a href="#">免费开店</a>
+                            <a href="#">已卖出的宝贝</a>
+                            <a href="#">出售中的宝贝</a>
+                            <a href="#">卖家服务市场</a>
+                            <a href="#">卖家培训中心</a>
+                        </ul>
+                    </li>
+                    <li class='nav_contact'>
+                        <a href="../index.html" class='nav-contact'>联系客服</a>
+                        <ul class="nav-myTao-nav"><a href="#">消费者客服</a><a href="#">卖家客服</a></ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header">
+                <a href="../index.html"></a>
+                <div class="header-search">
+                    <input type="text" placeholder="请输入内容" class='header-search-input' autocomplete="off" @input="inquiry" v-model='text'/>
+                <button type='submit'>搜 索</button>
+                    <div class="list">
+                        <ul id='list-search'><li v-for='mes in inquiryMes' @click='substituteMes(mes)' v-html='mes'></li></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="tbBar">
+                    <ul class = 'switch-cart'>
+                        <li class='btn-switch-cart switch-cart-0 selectColumn'>
+                            <a href="#" class='btn-switch-href '>
+                                <em>全部商品</em>
+                                <span class='number'>7</span>
+                                <span class='pipe'></span>
+                            </a>
+                        </li>
+                        <li class='btn-switch-cart switch-cart-1'>
+                            <a href="#" class="btn-switch-href btn-switch-color">
+                                <em>降价商品</em>
+                                <span class="number">0</span>
+                                <span class="pipe"></span>
+                            </a>
+                        </li>
+                        <li class='btn-switch-cart switch-cart-2'>
+                            <a href="#" class="btn-switch-href btn-switch-color">
+                                <em>库存紧张</em>
+                                <span class="number">0</span>
+                                <span class="pipe pipe-display"></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="cart-sum">
+                        <span>已选商品（不含运费）</span>
+                        <strong class='price'>￥<!--
+                            --><span class='total-symbol'>{{totalPrice}}</span>
+                        </strong>
+                        <a href="#" class="submit-btn btn-common">结算</a>
+                    </div>
+                    <div class="wrap-line">
+                    </div>
+                </div>
+                <div class="tbMain">
+                    <div class="commodityColumn">
+                        <div class="th-chk">
+                            <div id="selectAll" class="selectAll ">
+                                <input type="checkbox" name="selectAllChckbox" id='selectAllChckbox' class='allSelected1' autocomplete="off" v-model='checkedAll'>
+                                <label for="selectAllChckbox">全选</label>
+                            </div>
+                        </div>
+                        <div class="th-inner">
+                            <div class="commodityMsg">
+                                <div>商品信息</div>
+                            </div>
+                        </div>
+                        <div class="th-space">
+                            <div class="td-inner">&nbsp;</div>
+                        </div>
+                        <div class="th-price">
+                            <div class="td-inner">单价</div>
+                        </div>
+                        <div class="th-amount">
+                            <div class="td-inner">数量</div>
+                        </div>
+                        <div class="th-sum">
+                            <div class="td-inner">金额</div>
+                        </div>
+                        <div class="th-operation">
+                            <div class="td-inner">操作</div>
+                        </div>
+                    </div>
+
+                    <!-- 主要内容！！！ -->
+                    <div class='commodityContainer'>
+                    <template v-for='aMes in data'>
+                        <div class="mainCommodity">
+                            <div class="shopInfo">
+                                <div class="shopMsg">
+                                        <input type="checkbox" name="shopMsg"  class='shopMsg-input' autocomplete="off" v-model='aMes.checked'>
+                                        <label for="shopMsg">店铺：
+                                    <a href="../index.html">{{aMes.shopName}}</a>
+                                </div>
+                            </div>
+                            <div class="commodityInfo">
+                                <ul>
+                                    <li class='td-chk'>
+                                        <div class="td-inner">
+                                        <!-- 是否选择商品 -->
+                                            <input type="checkbox" name='checkbox' autocomplete="off" v-model='aMes.checked'>
+                                        </div>
+                                    </li>
+                                    <li class='td-item'>
+                                        <div class="td-inner">
+                                            <a href="../index.html" :class='aMes.className'>
+                                            </a>
+                                            <div class="item-info">
+                                                <div class="item-basis-info">
+                                                    <a href="../index.html">{{aMes.commodityName}}</a>
+                                                </div>
+                                                <div class="item-other-info">
+                                                    <div class="item-other-space"></div>
+                                                    <div class="item-other-list">
+                                                        <a href="#" title='支持信用卡支付'>
+                                                            <div class="bandCard"></div>
+                                                        </a>
+                                                        <a href="#" class='sevenDay' title='7天无理由'>
+                                                            <div class="sevenDay"></div>
+                                                        </a>
+                                                        <a href="#" title='消费者保障服务'>
+                                                            <div class="guarantee"></div>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class='td-info'>
+                                        <div class="td-info-msg" v-if='aMes.type=="clothing"'>
+                                            <p>颜色分类：{{aMes.color}}</p>
+                                            <p>尺码：{{aMes.size}}</p>
+                                        </div>
+                                        <div class="td-info-msg" v-else='aMes.type=="food"'>
+                                            <p>口味：{{aMes.taste}}</p>
+                                        </div>
+                                    </li>
+                                    <li class='td-price'>
+                                        <div class="td-inner">
+                                            <p class='non-discount' v-if='aMes.promotion==="true"'>￥{{aMes. originalPrice}}</p>
+                                            <p class='discount'>￥<span>{{aMes.unitPrice}}</span></p>
+                                            <div class="promotion" v-if='aMes.promotion=="true"' v-on:mouseover=''>
+                                                卖家促销
+                                                <i class='promotionIcon'></i>
+                                            </div>
+                                            <div class="proSlidedown">
+                                                <p class='newPro'>卖家促销：{{aMes.promotionContent}}</p>
+                                                <p>优惠：￥{{aMes.promotionDifference}}</p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+
+                                    <!-- 商品数量！！！-->
+                                    <li class='td-amount'>
+                                        <div class="item-amount">
+                                            <a href="javascript:;" class='amount-left amount-color' v-on:click='deleteNum(aMes)'>-</a>
+                                            <input type="text" name='amountNum' v-model='aMes.count' autocomplete="off">
+                                            <a href="javascript:;" class="amount-right" v-on:click='addNum(aMes)'>+</a>
+                                        </div>
+                                        <div class="stock">
+                                            {{aMes.maxNum}}
+                                        </div>
+                                        <div class="outNum" v-show='aMes.count>=aMes.maxNum'>
+                                            <span class="instr">最多只能购买</span>
+                                            <span class='stockNum'>{{aMes.maxNum}} </span><em>件</em>
+                                        </div>
+                                    </li>
+                                    <li class='td-sum'>
+                                        <em>￥</em><!--
+                                        --><span>{{aMes.count*aMes.unitPrice}}</span>
+                                    </li>
+                                    <li class='td-operation'>
+                                        <p><a href="#" class='delete' v-on:click='deleteGood(index)'>删除</a></p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="all-selected">
+                    <input type="checkbox" name='all-selected' id='all-selected' class='allSelected2' autocomplete="off" v-model='checkedAll'>
+                    <label for="all-selected">全选</label>
+                </div>
+                <div class="operation">
+                    <a href="#" class='delete'>删除</a>
+                    <a href="#">移入收藏夹</a>
+                    <a href="#">分享</a>
+                </div>
+                <div class="float-bar-right">
+                    <div class="amount-sum">
+                        <span>已选商品</span>
+                        <em class='totalSum'>{{sum}}</em>
+                        <span>件</span>
+                    </div>
+                    <div class="price-sum">
+                        <span>合计（不含运费）：</span>
+                        <span class='moneySym'>￥</span><!--
+                        --><em class='total-sum'>{{totalPrice}}</em>
+                    </div>
+                    <div class="btn-area">
+                        <a href="#" class='btn-common' id='btn-sum'>结 算</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src='js/vue.js'></script>
+    <script id="search" type="text/html">
+        <ul>
+            {{each Suggests as value i}}
+                <li>{{value.Txt}}</li>
+            {{/each}}
+        </ul>
+    </script>
+    <script id='delete' type='text/html'>
+        <div class="undo-wrapper">
+            <div class="deleteCom">
+                <p>
+                    成功删除
+                    <em>1</em>
+                    件宝贝，如果无，可
+                    <a href="#" class='turnBack'>撤销本次删除</a>
+                </p>
+            </div>
+        </div>
+    </script>
+    <script src='js/data.js'></script>
+</body>
+</html>

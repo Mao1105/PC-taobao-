@@ -1,0 +1,1055 @@
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],
+template {
+  display: none;
+}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+
+a:active,
+a:hover {
+  outline: 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/*mark {
+  background: #ff0;
+  color: #000;
+}*/
+
+small {
+  font-size: 80%;
+}
+img {
+  border: 0;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+button {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+input {
+  line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+}
+
+optgroup {
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+}
+
+.icons-sprite, .commodityInfo .boyShoes, .commodityInfo .fashionClo, .commodityInfo .lining-bas, .commodityInfo .adidas, .commodityInfo .Nike, .commodityInfo .xuezi, .commodityInfo .zhangjunya, .commodityInfo .bandCard, .commodityInfo .sevenDay, .commodityInfo .guarantee {
+  background-image: url('../images/icons-s2205f6ae3b.png');
+  background-repeat: no-repeat;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+
+input {
+  outline: none;
+}
+
+.container, .site-nav, .nav, .tbBar, .commodityColumn, .shopInfo, .commodityInfo, .commodityInfo ul {
+  *zoom: 1;
+}
+.container:after, .site-nav:after, .nav:after, .tbBar:after, .commodityColumn:after, .shopInfo:after, .commodityInfo:after, .commodityInfo ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav, .header {
+  width: 990px;
+}
+
+.nav-left, .nav-right, .nav-myTao-nav, .list ul, .switch-cart, .commodityInfo ul {
+  list-style: none;
+}
+
+.nav-left .nav-account, .nav-left .nav-msg, .nav-left .nav-hangon, .nav-right .nav-index, .nav-right .nav-myTao, .nav-myTao-nav a, .nav-collection, .nav-sellCenter, .nav-contact {
+  text-decoration: none;
+  color: #6c6c6c;
+}
+.nav-left .nav-account:hover, .nav-left .nav-msg:hover, .nav-left .nav-hangon:hover, .nav-right .nav-index:hover, .nav-right .nav-myTao:hover, .nav-myTao-nav a:hover, .nav-collection:hover, .nav-sellCenter:hover, .nav-contact:hover {
+  color: #FF3E00;
+}
+
+.btn-switch-href em, .btn-switch-href span.number {
+  font-size: 16px;
+}
+
+.nav-right .nav-myTao::after, .nav-collection::after, .nav-sellCenter::after, .nav-contact::after, .commodityInfo .td-price .promotionIcon {
+  content: "";
+  border: 4px solid transparent;
+  border-top-color: #6c6c6c;
+  display: inline-block;
+  position: relative;
+  margin-left: 4px;
+}
+
+.commodityInfo .td-price .promotion:hover .promotionIcon {
+  content: "";
+  border: 4px solid transparent;
+  border-bottom-color: #6c6c6c;
+  display: inline-block;
+  position: relative;
+  margin-left: 4px;
+}
+
+.th-chk, .commodityInfo .td-chk, .th-inner, .commodityInfo .td-item, .th-space, .commodityInfo .td-info, .th-price, .th-amount, .commodityInfo .td-price, .commodityInfo .td-amount, .th-sum, .commodityInfo .td-sum, .th-operation, .commodityInfo .td-operation {
+  float: left;
+}
+
+.main {
+  width: 100%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 990px;
+  margin-bottom: 70px;
+}
+
+
+.site-nav {
+  background: #f5f5f5 scroll no-repeat 0 0;
+  width: 100%;
+  border-bottom: 1px solid #eee;
+}
+
+
+.nav {
+  margin: 0 auto;
+  height: 35px;
+  line-height: 35px;
+}
+
+
+.nav-left {
+  float: left;
+}
+
+.nav-left li {
+  float: left;
+  padding: 0 10px;
+}
+
+.nav-left .nav-msg {
+  color: #111;
+}
+
+.nav-left .nav-msg::before {
+  content: url("../images/icons/message.png");
+  margin-right: 4px;
+}
+
+
+.nav-right {
+  float: right;
+}
+
+.nav-right li {
+  float: left;
+}
+
+.nav-right a {
+  display: block;
+  padding: 0 15px;
+}
+
+.nav-right .nav-index {
+  color: #F22E00;
+}
+
+
+.nav-myTao-nav {
+  display: none;
+  padding: 8px 0;
+  z-index: 2;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-top-width: 0;
+}
+
+.nav-myTao-nav a {
+  display: block;
+  line-height: 28px;
+  padding: 0 12px;
+}
+
+.nav-myTao-nav a:hover {
+  color: #6c6c6c;
+  background-color: #f5f5f5;
+}
+
+
+.nav-collection::before {
+  content: url("../images/icons/star_gray.png");
+  margin-right: 5px;
+}
+
+.nav-collection:hover::before {
+  content: url("../images/icons/star-orange.png");
+}
+
+
+.header {
+  margin: 0 auto;
+  height: 35px;
+  padding: 20px 0 40px;
+}
+
+.header a {
+  display: block;
+  float: left;
+}
+
+.header a::before {
+  content: url("../images/icons/taobao-icon.png");
+}
+
+.header-search {
+  float: right;
+  position: relative;
+}
+
+.header-search input {
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 400px;
+  height: 35px;
+  border: 3px solid #ff5000;
+  padding-left: 8px;
+  font-size: 1.3em;
+}
+
+.header-search button {
+  float: left;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 35px;
+  color: #fff;
+  margin-left: -1px;
+  width: 90px;
+  border: 0;
+  background-color: #FF4400;
+  font-size: 1.6em;
+}
+
+.list {
+  position:absolute;
+  margin-top: 35px;
+  border: 1px solid #ccc;
+  border-top-width: 0;
+  width: 487px;
+  z-index: 2;
+  background-color: #fff;
+}
+
+.list li {
+  font-size: 1.3em;
+  cursor: pointer;
+  padding: 4px 0 4px 4px;
+}
+
+.list li:hover {
+  background-color: #ccc;
+}
+
+.tbBar {
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+}
+
+.switch-cart {
+  height: 33px;
+}
+
+.btn-switch-cart {
+  cursor: pointer;
+  float: left;
+  font-weight: 700;
+  height: 18px;
+  line-height: 1.1;
+  margin-left: -1px;
+  padding: 0 0 15px;
+  text-align: center;
+}
+
+.switch-cart-0 {
+  padding-left: 15px;
+}
+
+.switch-cart-1, .switch-cart-2 {
+  padding-left: 25px;
+}
+
+.switch-cart-2 {
+  cursor: not-allowed;
+  padding-right: 25px;
+}
+
+.btn-switch-href {
+  text-decoration: none;
+  color: #FF4400;
+}
+
+.btn-switch-href em {
+  margin-right: 3px;
+  font-style: normal;
+}
+
+.btn-switch-href span.number {
+  color: #ff4400;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.btn-switch-href span.pipe {
+  width: 1px;
+  height: 12px;
+  display: inline-block;
+  margin-left: 20px;
+  background-color: #e8e8e8;
+}
+
+.btn-switch-href span.pipe.pipe-display {
+  display: none;
+}
+
+.btn-switch-color {
+  color: #3c3c3c;
+}
+
+
+.cart-sum {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 25px;
+  line-height: 25px;
+}
+
+.cart-sum .price {
+  color: #f40;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+.cart-sum .total-symbol {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.cart-sum .submit-btn {
+  text-decoration: none;
+  display: inline-block;
+  width: 55px;
+  text-align: center;
+  color: #fff;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.btn-common {
+  cursor: not-allowed;
+  background-color: #aaa;
+}
+
+.selected {
+  background-color: #f40;
+  cursor: pointer;
+}
+.wrap-line {
+  background: #e6e6e6 none no-repeat scroll 0 0;
+  height: 2px;
+}
+.selectColumn {
+  border-bottom: 2px solid #f40;
+}
+
+.tbMain {
+  min-height: 210px;
+}
+
+.commodityColumn {
+  color: #3c3c3c;
+  height: 50px;
+  padding: 3px 0;
+  line-height: 50px;
+  overflow: hidden;
+}
+
+/* line 355, ../sass/screen.scss */
+.th-chk, .commodityInfo .td-chk {
+  position: relative;
+  height: 50px;
+  width: 45px;
+}
+
+/* line 361, ../sass/screen.scss */
+.selectAll {
+  position: absolute;
+  padding-left: 20px;
+  width: 80px;
+  cursor: pointer;
+}
+/* line 366, ../sass/screen.scss */
+.selectAll input {
+  cursor: pointer;
+}
+/* line 369, ../sass/screen.scss */
+.selectAll label {
+  margin-top: -2px;
+  position: absolute;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+/* line 376, ../sass/screen.scss */
+.th-inner, .commodityInfo .td-item {
+  width: 302px;
+}
+
+/* line 381, ../sass/screen.scss */
+.commodityMsg {
+  padding-left: 91px;
+}
+/* line 383, ../sass/screen.scss */
+.commodityMsg div {
+  margin-top: -3px;
+}
+
+/* line 387, ../sass/screen.scss */
+.th-space, .commodityInfo .td-info {
+  width: 172px;
+  padding-right: 20px;
+}
+
+/* line 392, ../sass/screen.scss */
+.td-inner {
+  padding-left: 10px;
+  margin-top: -2px;
+}
+/* line 395, ../sass/screen.scss */
+.td-inner input {
+  cursor: pointer;
+}
+
+/* line 399, ../sass/screen.scss */
+.th-price, .th-amount, .commodityInfo .td-price, .commodityInfo .td-amount {
+  width: 120px;
+}
+
+/* line 406, ../sass/screen.scss */
+.th-sum, .commodityInfo .td-sum {
+  width: 105px;
+}
+/* line 409, ../sass/screen.scss */
+.th-sum .td-inner, .commodityInfo .td-sum .td-inner {
+  padding-left: 0;
+}
+
+/* line 413, ../sass/screen.scss */
+.th-operation, .commodityInfo .td-operation {
+  width: 84px;
+  padding-left: 15px;
+}
+/* line 417, ../sass/screen.scss */
+.th-operation .td-inner, .commodityInfo .td-operation .td-inner {
+  padding-left: 0;
+}
+
+/* line 421, ../sass/screen.scss */
+.mainCommodity {
+  margin-bottom: 10px;
+}
+
+/* line 427, ../sass/screen.scss */
+.shopMsg {
+  line-height: 38px;
+  padding-left: 15px;
+  position: relative;
+}
+/* line 431, ../sass/screen.scss */
+.shopMsg .shopMsg-input {
+  position: relative;
+  top: 2px;
+  cursor: pointer;
+  left: 5px;
+}
+/* line 437, ../sass/screen.scss */
+.shopMsg label {
+  margin-left: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+/* line 442, ../sass/screen.scss */
+.shopMsg a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+/* line 445, ../sass/screen.scss */
+.shopMsg a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+
+/* line 452, ../sass/screen.scss */
+.stock {
+  display: none;
+}
+
+/* line 455, ../sass/screen.scss */
+.outNum {
+  margin-top: -1px;
+  position: absolute;
+  /*display: none;*/
+  width: 78px;
+  padding: 5px 10px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #FFE1D3;
+  background-color: #FFF0E7;
+  color: #f40;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 466, ../sass/screen.scss */
+.outNum em {
+  font-style: normal;
+}
+
+/* line 472, ../sass/screen.scss */
+.commodityInfo .boyShoes, .commodityInfo .fashionClo, .commodityInfo .lining-bas, .commodityInfo .adidas, .commodityInfo .Nike, .commodityInfo .xuezi, .commodityInfo .zhangjunya, .commodityInfo .desImg {
+  display: inline-block;
+  float: left;
+}
+
+/* line 477, ../sass/screen.scss */
+.commodityInfo {
+  border: 1px solid #ccc;
+  padding: 20px 0;
+  background-color: #FCFCFC;
+}
+/* line 486, ../sass/screen.scss */
+.commodityInfo .td-chk {
+  width: 35px;
+  min-height: 79px;
+  padding-left: 10px;
+}
+/* line 492, ../sass/screen.scss */
+.commodityInfo .td-item {
+  min-height: 79px;
+}
+/* line 496, ../sass/screen.scss */
+.commodityInfo .boyShoes {
+  background-position: 0 -101px;
+  height: 80px;
+  width: 80px;
+}
+/* line 500, ../sass/screen.scss */
+.commodityInfo .fashionClo {
+  background-position: 0 -186px;
+  height: 80px;
+  width: 80px;
+}
+/* line 504, ../sass/screen.scss */
+.commodityInfo .lining-bas {
+  background-position: 0 -292px;
+  height: 80px;
+  width: 80px;
+}
+/* line 508, ../sass/screen.scss */
+.commodityInfo .adidas {
+  background-position: 0 0;
+  height: 80px;
+  width: 82px;
+}
+/* line 512, ../sass/screen.scss */
+.commodityInfo .Nike {
+  background-position: 0 -477px;
+  height: 80px;
+  width: 80px;
+}
+/* line 516, ../sass/screen.scss */
+.commodityInfo .xuezi {
+  background-position: 0 -667px;
+  height: 80px;
+  width: 80px;
+}
+/* line 520, ../sass/screen.scss */
+.commodityInfo .zhangjunya {
+  background-position: 0 -752px;
+  height: 80px;
+  width: 80px;
+}
+/* line 527, ../sass/screen.scss */
+.commodityInfo .item-info {
+  margin: -3px 0 0 91px;
+  padding-right: 15px;
+  min-height: 79px;
+}
+/* line 531, ../sass/screen.scss */
+.commodityInfo .item-info a {
+  text-decoration: none;
+  color: #3c3c3c;
+}
+/* line 534, ../sass/screen.scss */
+.commodityInfo .item-info a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+/* line 540, ../sass/screen.scss */
+.commodityInfo .item-other-space {
+  min-height: 26px;
+  overflow: hidden;
+}
+/* line 544, ../sass/screen.scss */
+.commodityInfo .bandCard {
+  display: inline-block;
+  background-position: 0 -85px;
+  height: 11px;
+  width: 16px;
+}
+/* line 548, ../sass/screen.scss */
+.commodityInfo .sevenDay {
+  display: inline-block;
+  margin: 0 2px;
+  background-position: 0 -562px;
+  height: 16px;
+  width: 16px;
+}
+/* line 553, ../sass/screen.scss */
+.commodityInfo .guarantee {
+  display: inline-block;
+  background-position: 0 -271px;
+  height: 16px;
+  width: 14px;
+}
+/* line 557, ../sass/screen.scss */
+.commodityInfo .td-info {
+  min-height: 79px;
+}
+/* line 561, ../sass/screen.scss */
+.commodityInfo .td-info-msg {
+  min-height: 84px;
+}
+/* line 563, ../sass/screen.scss */
+.commodityInfo .td-info-msg p {
+  margin: 0 5px 0 15px;
+  color: #9c9c9c;
+  padding-bottom: 3px;
+  margin-top: -2px;
+}
+/* line 570, ../sass/screen.scss */
+.commodityInfo .td-price {
+  min-height: 79px;
+}
+/* line 573, ../sass/screen.scss */
+.commodityInfo .td-price .non-discount {
+  font-size: 1em;
+  color: #9c9c9c;
+  text-decoration: line-through;
+}
+/* line 578, ../sass/screen.scss */
+.commodityInfo .td-price .discount {
+  font-weight: 600;
+}
+/* line 580, ../sass/screen.scss */
+.commodityInfo .td-price .discount span {
+  font-size: 1.2em;
+}
+/* line 584, ../sass/screen.scss */
+.commodityInfo .td-price .promotion {
+  height: 23px;
+  line-height: 23px;
+  width: 65px;
+  border: 1px solid #FFE1D3;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #FFF0E7;
+  margin-left: -10px;
+  padding-right: 17px;
+  color: #FF4400;
+  font-size: 1.1em;
+  padding-left: 3px;
+}
+/* line 598, ../sass/screen.scss */
+.commodityInfo .td-price .promotion:hover .promotionIcon {
+  position: absolute;
+  margin-top: 5px;
+  border-bottom-color: #f40;
+}
+.commodityInfo .td-price .promotion:hover + div {
+  display: block;
+}
+/* line 606, ../sass/screen.scss */
+.commodityInfo .td-price .promotionIcon {
+  position: absolute;
+  margin-top: 10px;
+  border-top-color: #f40;
+}
+/* line 613, ../sass/screen.scss */
+.commodityInfo .proSlidedown {
+  display: none;
+  width: 136px;
+  padding: 10px;
+  margin-left: -10px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  position: absolute;
+  -moz-box-shadow: 2px 2px 3px #f4f4f4;
+  -webkit-box-shadow: 2px 2px 3px #f4f4f4;
+  box-shadow: 2px 2px 3px #f4f4f4;
+}
+/* line 622, ../sass/screen.scss */
+.commodityInfo .proSlidedown p {
+  color: #9c9c9c;
+}
+/* line 625, ../sass/screen.scss */
+.commodityInfo .proSlidedown .newPro {
+  padding-bottom: 4px;
+}
+/* line 629, ../sass/screen.scss */
+.commodityInfo .td-amount {
+  min-height: 79px;
+}
+/* line 633, ../sass/screen.scss */
+.commodityInfo .item-amount {
+  height: 25px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+/* line 638, ../sass/screen.scss */
+.commodityInfo .item-amount a {
+  display: inline-block;
+  height: 23px;
+  line-height: 23px;
+  position: absolute;
+  top: 0;
+  border: 1px solid #e5e5e5;
+  width: 17px;
+  background-color: #f0f0f0;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  color: #444;
+}
+/* line 651, ../sass/screen.scss */
+.commodityInfo .item-amount a:hover {
+  border: 1px solid #f60;
+}
+/* line 655, ../sass/screen.scss */
+.commodityInfo .item-amount .amount-right {
+  border-left-color: #aaa;
+}
+/* line 658, ../sass/screen.scss */
+.commodityInfo .item-amount .amount-color {
+  color: #444;
+}
+/* line 661, ../sass/screen.scss */
+.commodityInfo .item-amount .amount-left {
+  border-right-color: #aaa;
+}
+
+.commodityInfo .item-amount input {
+  width: 39px;
+  height: 15px;
+  padding: 4px 1px;
+  line-height: 15px;
+  border: 1px solid #aaa;
+  border-left-width: 0;
+  border-right-width: 0;
+  margin-left: 18px;
+  text-align: center;
+}
+
+.commodityInfo .td-sum {
+  min-height: 79px;
+  color: #f40;
+  font-weight: bold;
+}
+
+.commodityInfo .td-sum em {
+  font-style: normal;
+  font-size: 1.3em;
+}
+
+.commodityInfo .td-sum span {
+  font-size: 1.2em;
+}
+
+.commodityInfo .td-operation {
+  min-height: 79px;
+}
+
+.commodityInfo .td-operation a {
+  color: #3c3c3c;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 4px;
+}
+
+.commodityInfo .td-operation a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
+
+
+.footer {
+  width: 990px;
+  height: 50px;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  background-color: #E5E5E5;
+}
+
+
+.all-selected {
+  cursor: pointer;
+  float: left;
+  line-height: 50px;
+  padding-left: 5px;
+  width: 50px;
+}
+
+.all-selected input {
+  position: relative;
+  top: 1px;
+  cursor: pointer;
+}
+
+.all-selected label {
+  display: inline-block;
+  cursor: pointer;
+}
+
+
+.operation {
+  float: left;
+  line-height: 50px;
+}
+
+.operation a {
+  margin-left: 25px;
+  color: #3c3c3c;
+  text-decoration: none;
+}
+
+.operation a:hover {
+  text-decoration: underline;
+  color: #f40;
+}
+
+.float-bar-right {
+  float: right;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+.amount-sum {
+  cursor: pointer;
+  float: left;
+  padding-right: 20px;
+}
+
+.amount-sum em {
+  font-style: normal;
+  color: #f40;
+  font-size: 1.4em;
+}
+
+.price-sum {
+  float: left;
+  line-height: 44px;
+  padding-right: 20px;
+}
+
+.price-sum .moneySym {
+  color: #f40;
+}
+
+.price-sum .total-sum {
+  font-size: 1.8em;
+  font-weight: bold;
+  font-style: normal;
+  color: #f40;
+}
+
+.btn-area {
+  float: left;
+  line-height: 50px;
+}
+.btn-area a {
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  font-size: 1.8em;
+  font-family: "Lantinghei SC","Microsoft Yahei";
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
+.undo-wrapper {
+  border: 1px solid #fcd3b6;
+  margin: 40px 0 30px;
+  -moz-box-shadow: 5px 5px 5px insert;
+  -webkit-box-shadow: 5px 5px 5px insert;
+  box-shadow: 5px 5px 5px insert;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.deleteCom {
+  border: 2px solid #fff8d9;
+  height: 26px;
+  line-height: 26px;
+}
+.deleteCom p {
+  padding-left: 25px;
+  color: #404040;
+}
+.deleteCom em {
+  font-style: normal;
+  margin: 0 4px;
+  color: #404040;
+}
+.deleteCom a {
+  color: #404040;
+  text-decoration: none;
+}
+.deleteCom a:hover {
+  color: #f40;
+  text-decoration: underline;
+}
